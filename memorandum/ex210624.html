@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>備忘錄練習</title>
+  <link rel="stylesheet" type="text/css" href="ex210624.css">
+</head>
+
+<body>
+
+  <div class="app">
+    <h1>備忘錄</h1>
+    <p>記事</p>
+    <input type="text" id="content" />
+    <p>日期</p>
+    <input type="date" id="date" />
+    <p>時間</p>
+    <input type="time" id='time' />
+    </br>
+    </br>
+    <button class='add' id='addedBtn'>新增</button>
+    </br>
+    </br>
+    <button class='remove' id='deletedBtn'>刪除最後一個</button>
+    <div class="list" id='list'>
+      </br>
+      <!-- <div class="item">
+        <div>
+          <p>內容:</p>
+          <p>時間:</p>
+        </div>
+      </div> -->
+    </div>
+  </div>
+  <style>
+    .app {
+      border: 1px black;
+    }
+  </style>
+  <script src="ex210624.js"></script>
+</body>
+
+</html>

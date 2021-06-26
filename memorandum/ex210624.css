@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+}
+/* 網頁內容 */
+div.app{
+  border: 1px solid black;
+  text-align: center;
+  
+}
+/* 新增-樣式 */
+.add{
+  padding: 5px 150px;
+  background-color: black;
+  color: white;
+}
+/* 刪除最後一個-樣式 */
+.remove{
+    padding: 5px 123px;
+    background-color: tomato;
+    color: white;
+}
+
